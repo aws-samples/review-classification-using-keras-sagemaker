@@ -18,25 +18,24 @@ Amazon Customer Reviews (a.k.a. Product Reviews) is one of Amazon’s iconic pro
     5.	train function to train the Neural network model
     6.	threadsafe_iter class and threadsafe_generator to make custom generator threadsafe
     7.	input_fn function to convert inference payload to numpy vector.
-    4.	The model was evaluated on the test data using SageMaker Batch Transform functionality.
-5.	 Results
-    1.	Model achieved an ROC-AUC of 0.97 on the holdout set below are some reviews classified as good and bad by the model
-        Reviews classified as Good by the model
+4.	The model was evaluated on the test data using SageMaker Batch Transform functionality.
+5.	Model achieved an ROC-AUC of 0.97 on the holdout set below are some reviews classified as good and bad by the model
+    ###### Reviews classified as Good by the model
+
            1. 'Awesome show, wish they would have continued it!',
            2. 'Great movie.',
            3. 'Absolutely beautiful!!!',
            4. 'I love this show <3',
            5. 'One of my favorite kind of shows. Love I!'
 
-          Reviews classified as Bad by the model
-         1. If I could give this less than 1 star I would.  The worst movie I've seen in ages.  The acting was less than high school level.  The Mockingjay character was mind numbingly boring and droll.  She was terrible.  The characters were beyond pathetic.  1 hour and 40 minutes of pure torture and inane plot, script combined with terrible CGI and effects I found myself wanting to consume mass quantities of alcohol.  The whole Hunger Game sage is a total waste of time.  How anyone can say this is anything but pure boredom is beyond me.
-         2. slow and boring, boring, boring, just like the book
-         3. "Awful. A waste of money. A waste of time. Boring. Predictable. I gave up for the sake of my sanity about 20 minutes before it was over. Sandler and Barrymore must have been bored to tears with nothing to do, under contract to do something, and just didn't care........",
-         4. 'Horrible movie. Mediocre acting, terrible plot, confusing and boring.',
-         5. 'The movie is a real waste of time and money, poor actors, poor story, poor locations... really awful movie. I waste my money with this piece of crap.'
+     ###### Reviews classified as Bad by the model
 
-* Change the title in this README
-* Edit your repository description on GitHub
+        1. If I could give this less than 1 star I would.  The worst movie I've seen in ages.  The acting was less than high school level.  The Mockingjay character was mind numbingly boring and droll.  She was terrible.  The characters were beyond pathetic.  1 hour and 40 minutes of pure torture and inane plot, script combined with terrible CGI and effects I found myself wanting to consume mass quantities of alcohol.  The whole Hunger Game sage is a total waste of time.  How anyone can say this is anything but pure boredom is beyond me.
+        2. slow and boring, boring, boring, just like the book
+        3. "Awful. A waste of money. A waste of time. Boring. Predictable. I gave up for the sake of my sanity about 20 minutes before it was over. Sandler and Barrymore must have been bored to tears with nothing to do, under contract to do something, and just didn't care........",
+        4. 'Horrible movie. Mediocre acting, terrible plot, confusing and boring.',
+        5. 'The movie is a real waste of time and money, poor actors, poor story, poor locations... really awful movie. I waste my money with this piece of crap.'
+
 
 ## Security
 
